@@ -1,0 +1,46 @@
+{
+  "id": "biz.trickster.hana.kuma-deru",
+  "name": "くま！おる！熊！",
+  "short_name": "くまおる",
+  "description": "地域の熊出没情報をリアルタイムで投稿・共有する安全マップ",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0C1322",
+  "theme_color": "#D97706",
+  "lang": "ja",
+  "categories": ["utilities", "lifestyle"],
+  "prefer_related_applications": false,
+  "iarc_rating_id": "",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "くま！おる！熊！ トップページ"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "くま！おる！熊！ スマートフォン表示"
+    }
+  ]
+}

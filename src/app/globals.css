@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kuma-bg: #0C1322;
+  --color-kuma-card: #141E33;
+  --color-kuma-panel: #1B2740;
+  --color-kuma-ink: #E8EDF6;
+  --color-kuma-sub: #93A1BC;
+  --color-kuma-faint: #6B7A98;
+  --color-kuma-line: #26324D;
+  --color-kuma-primary: #F5A524;
+  --color-kuma-primary-text: #0C1322;
+  --color-kuma-accent: #FF4D4D;
+  --color-kuma-line2: #06C755;
+  --color-kuma-danger: #FF4D4D;
+  --color-kuma-field: #0F1830;
+  --color-kuma-map-land: #1A2438;
+  --color-kuma-map-water: #1E3344;
+  --color-kuma-map-road: #33405D;
+  --font-kuma: var(--font-zen-kaku), "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+body {
+  font-family: var(--font-kuma);
+  background: var(--color-kuma-bg);
+  color: var(--color-kuma-ink);
+}
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes kumaPulse {
+  0% { transform: translate(-50%, -50%) scale(.6); opacity: .5; }
+  100% { transform: translate(-50%, -50%) scale(2.4); opacity: 0; }
+}

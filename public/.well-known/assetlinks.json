@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "biz.trickster.hana.kuma_oru.twa",
+      "sha256_cert_fingerprints": [
+        "BF:64:3E:FA:31:7F:96:18:08:3A:45:9C:62:6A:27:7E:35:64:C8:CB:F7:23:D5:CB:81:7C:0B:60:E0:3D:BB:64"
+      ]
+    }
+  }
+]
