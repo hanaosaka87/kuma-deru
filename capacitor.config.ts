@@ -10,6 +10,11 @@ const config: CapacitorConfig = {
     url: 'https://kuma-oru.hana.trickster.biz',
     cleartext: false,
   },
+  ios: {
+    // コンテンツがステータスバー/ホームインジケーターに重なる問題の対策（クレゲーで確立済み）。
+    // 常にセーフエリア分の余白を確保してWebViewを配置する
+    contentInset: 'always',
+  },
 };
 
 export default config;

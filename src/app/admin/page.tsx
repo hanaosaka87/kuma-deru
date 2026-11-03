@@ -222,7 +222,7 @@ export default function AdminPage() {
   return (
     <main className="min-h-screen bg-kuma-bg text-kuma-ink">
       {/* ヘッダー */}
-      <div className="sticky top-0 z-10 bg-kuma-bg/95 backdrop-blur-sm border-b border-kuma-line px-4 py-3 flex items-center justify-between">
+      <div className="sticky top-0 z-10 bg-kuma-bg/95 backdrop-blur-sm border-b border-kuma-line px-4 py-3 flex items-center justify-between" style={{ paddingTop: 'max(0.75rem, env(safe-area-inset-top))' }}>
         <div className="flex items-center gap-2">
           <Bear size={26} />
           <span className="font-extrabold text-kuma-primary text-[13px]">管理者ダッシュボード</span>
