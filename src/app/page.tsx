@@ -313,19 +313,19 @@ export default function LandingPage() {
       <div className="hidden lg:block bg-kuma-bg text-kuma-ink">
         {/* nav */}
         <div className="border-b border-kuma-line bg-kuma-bg/90 backdrop-blur-sm sticky top-0 z-10">
-          <div className="max-w-[1120px] mx-auto px-12 h-[68px] flex items-center justify-between">
-            <div className="flex items-center gap-2.5">
+          <div className="max-w-[1120px] mx-auto px-6 xl:px-12 h-[68px] flex items-center justify-between">
+            <div className="flex items-center gap-2.5 shrink-0">
               <Bear size={36} />
-              <div className="leading-none">
+              <div className="leading-none whitespace-nowrap">
                 <div className="font-extrabold text-[17px] text-kuma-primary">くま！おる！熊！</div>
                 <div className="text-[10px] text-kuma-faint mt-1 tracking-wide">くまもり — 人も、熊も、守る</div>
               </div>
             </div>
-            <div className="flex items-center gap-7">
+            <div className="flex items-center gap-4 xl:gap-7">
               {NAV.map(n => (
-                <Link key={n.href} href={n.href} className="text-[13.5px] font-bold text-kuma-sub hover:text-kuma-ink transition-colors">{n.label}</Link>
+                <Link key={n.href} href={n.href} className="text-[13.5px] font-bold text-kuma-sub hover:text-kuma-ink transition-colors whitespace-nowrap">{n.label}</Link>
               ))}
-              <Link href="/map" className="rounded-xl px-[18px] py-2.5 text-[13.5px] font-extrabold hover:opacity-90 transition-opacity" style={{ background: '#F5C400', color: '#1A1200' }}>今すぐ地図をみる</Link>
+              <Link href="/map" className="rounded-xl px-[18px] py-2.5 text-[13.5px] font-extrabold hover:opacity-90 transition-opacity whitespace-nowrap shrink-0" style={{ background: '#F5C400', color: '#1A1200' }}>今すぐ地図をみる</Link>
             </div>
           </div>
         </div>
